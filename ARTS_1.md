@@ -5,11 +5,13 @@
 
 ### [100. Same Tree](https://leetcode.com/problems/same-tree/description/)
 **Description**
+
 Given two binary trees, write a function to check if they are the same or not.
 
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 
 **Solution**
+
 判断两棵树是否相同，通过递归来实现，主要符合两个条件：
 1. 两棵树的结点都为空；或不为空时，但是值相等
 2. 两棵树的结点都不为空，左右子树对应相等
