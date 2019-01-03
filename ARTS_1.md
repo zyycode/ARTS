@@ -5,13 +5,11 @@
 
 ### [100. Same Tree](https://leetcode.com/problems/same-tree/description/)
 **Description**
-
 Given two binary trees, write a function to check if they are the same or not.
 
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 
 **Solution**
-
 判断两棵树是否相同，通过递归来实现，主要符合两个条件：
 1. 两棵树的结点都为空；或不为空时，但是值相等
 2. 两棵树的结点都不为空，左右子树对应相等
@@ -55,4 +53,4 @@ npm是NodeJS自带的包管理器，开发者只需要下载引入该包就可�
 
 ### [一个前端必会的 Nginx免费教程 (共11集)](http://jspang.com/post/nginx.html)
 
-个人觉得写得很好，还有对应的视频教程。看完之后可以轻松的在在自己的 VPS 上搭建 Nginx 并可以通过不同的端口、子域名来划分虚拟主机。最常用的就是反向代理，可以将不同端口的服务打到 80 或 443 端口，这样就可以设置的不同子域名来访问特定的服务。
+个人觉得写得很好，还有对应的视频教程。看完之后可以轻松的在在自己的 VPS 上搭建 Nginx 并可以通过不同的端口、子域名来划分虚拟主机。
